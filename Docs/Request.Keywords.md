@@ -1,4 +1,4 @@
-Class: Request.TimeZone {#Request.TimeZone}
+Class: Request.Keywords {#Request.Keywords}
 =========================================================
 
 Request.Keywords is a simple plugin that tries to find keywords connected to a certain term.
