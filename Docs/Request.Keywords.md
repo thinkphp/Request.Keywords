@@ -76,7 +76,7 @@ a Request.Keywords instance
 
 ## Element Method: loadKeywords
 
-Updates the content of the Element with the desired timezone.
+Updates the content of the Element with keywords founds at the term you defined.
 
 ### Syntax:
 
