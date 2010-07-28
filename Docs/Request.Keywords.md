@@ -22,7 +22,7 @@ Request.Keywords Method: constructor {#Request.Keywords: constructor}
 
 ### Arguments:
 
-1. term - (*String*) (required) the mandatory term to search for.
+1. term - (*String*) (required) the mandatory term for which you will find the keywords connected.
 2. region - (*String*) (required) the region in which you make search.
 2. language - (*String*) (required) the language in which you make search.
                                       
@@ -80,10 +80,12 @@ Updates the content of the Element with keywords founds at the term you defined.
 
 ### Syntax:
 
-myElement.loadKeywords(term);
+myElement.loadKeywords(term, region, language);
 
 #### Arguments:
-1. location (*String*) - the term for which you wish to search for.
+1. term (*String*) - (required) the term for which you wish to search for.
+2. region (*String*) - (optional) the region over search (default: 'us').
+3. language (*String*) - (optional) the language for which you want to search for. (default: 'en').
 
 ### Returns:
 
@@ -96,3 +98,5 @@ myElement.loadKeywords(term);
 
        #JS
        $('content').loadKeywords('mootools');
+            OR
+       $('content').loadKeywords('mootools','us','en');

@@ -34,7 +34,7 @@
 <script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
 <script type="text/javascript">google.load("mootools", "1.2.4");</script>
 <script type="text/javascript" src="http://github.com/thinkphp/Request.ForecastWeather/raw/master/demo/Request.JSONP.js"></script>
-<script type="text/javascript" src="Request.Keywords-yui-compressed.js"></script>
+<script type="text/javascript" src="Request.Keywords.js"></script>
 <script type="text/javascript">
         var container = $('keywords'), f = $('f') 
          f.addEvent('submit',function(e){
@@ -43,7 +43,7 @@
              if(!term) {alert('Error input!');return false;} 
              var locale = $('locale');
              locales = locale.options[locale.selectedIndex].value.split('\|');
-             new Request.Keywords(term, locales[1], locales[2],{
+             new Request.Keywords(term,'us','en',{
                                       onSuccess: function(o) {
                                            if(window.console) {console.log(o);}
                                              container.addClass('load');
