@@ -18,7 +18,7 @@ In your JavaScript source:
 
        #JS 
        window.addEvent('domready',function(){ 
-             new Request.Keywords('mootools', us, en, {
+             new Request.Keywords('mootools', 'us', 'en', {
                                       onSuccess: function(o) {
                                            if(window.console) {console.log(o);}
                                              if(o.query.results.keywords) {
@@ -39,13 +39,15 @@ In your JavaScript source:
                                            $('keywords').set('text','Loading...');
                                       }
             }).send();              
+
+            $('another_keywords').loadKeywords('python');
       }
 
 In your HTML source: 
 
        #HTML
        <div id="keywords"></div>
-
+       <div id="another_keywords"></div>
 Dependencies
 
       MooTools Core 1.2.4
