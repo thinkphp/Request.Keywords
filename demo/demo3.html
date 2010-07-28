@@ -11,7 +11,7 @@
   #output {text-align: left;padding-top: 10px;padding-bottom: 30px}
   p{margin: .4em 0;font-size: 15px}
   #output .termslist{color: #fff;font-size: 20px}
-  #ft {text-align: center;color: #ccc;margin-top: 20px}
+  #ft {text-align: left;color: #ccc;margin-top: 20px}
   #ft a {color: #595}
   #ft p {font-size: 12px}
 </style>
@@ -21,11 +21,12 @@
 <script type="text/javascript" src="Request.Keywords.js"></script>
 </head>
 <body>
-<div id="doc">
-<div id="hd"><h1>Find keywords connected to a certain term with Request.Keywords</h1></div>
+<div id="doc2">
+<div id="hd"><h1>Request.Keywords - find keywords connected to a certain term</h1></div>
 <div id="bd">
 <h2>Keywords for 'mootools'</h2>
 <div id="output"></div>
+<div id="ft"><p>Created by @<a href="http://twitter.com/thinkphp">thinkphp</a> using <a href="http://thinkphp.ro/apps/YQL/keywordfinder/keywordfinder.table.xml">Open Data Table</a> | You can grab the source code of this demo on <a href="http://mootools.net/forge/download/Request_Keywords/v1.0">Forge</a></p></div></div>
 <script type="text/javascript"> $('output').loadKeywords('mootools');</script>
 </body>
 </html>
