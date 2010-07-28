@@ -1,4 +1,4 @@
-Request.TimeZone
+Request.Keywords
 =======================
 Request.Keywords is plugin MooTools which tries to find keywords connected to a certain term.
 
