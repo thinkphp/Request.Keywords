@@ -1,7 +1,7 @@
-name:  Request.Keywords
-author:  Adrian Statescu
-current:  
-category:  
-tags:  []
+name: Request.Keywords
+author: thinkphp
+current: v1.0  
+category: Request  
+tags: [request,keywords,boss,yahoo]
 docs:  
 demo:  
