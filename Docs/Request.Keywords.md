@@ -74,7 +74,7 @@ a Request.Keywords instance
 #### Arguments
      1. data - (*Object*) data returns are passed.
 
-## Element Method: loadKeywords
+## Element Method: loadKeywords {#Element: loadKeywords}
 
 Updates the content of the Element with keywords founds at the term you defined.
 
