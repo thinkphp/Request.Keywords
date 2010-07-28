@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Find keywords connected to a certain term with Yahoo BOSS</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <link rel="stylesheet" href="http://yui.yahooapis.com/2.5.1/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+  <style>
+  html,body {background: #000;color: #ccc;}
+  h1 {font-family: Futura,verdana,arial,sans-serif;font-size: 200%; color: #fff;background: #030; padding: 15px;     margin-top: 10px;     -moz-border-radius: 10px;     -webkit-border-radius: 10px;border-radius: 10px text-align: center;}
+  h2 {     margin-top: 14px;      font-family: futura,Verdana,Arial,sans-serif,helvetica;     text-align: left;     font-size: 22px;     color: #393;     margin-bottom: 14px    }
+  #output {text-align: left;padding-top: 10px;padding-bottom: 30px}
+  p{margin: .4em 0;font-size: 15px}
+  #output3 .termslist, #output2 .termslist,#output1 .termslist{color: #fff;font-size: 20px}
+  #ft {text-align: left;color: #ccc;margin-top: 20px}
+  #ft a {color: #595}
+  #ft p {font-size: 12px}
+</style>
+<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+<script type="text/javascript">google.load("mootools", "1.2.4");</script>
+<script type="text/javascript" src="http://github.com/thinkphp/Request.ForecastWeather/raw/master/demo/Request.JSONP.js"></script>
+<script type="text/javascript" src="Request.Keywords.js"></script>
+</head>
+<body>
+<div id="doc2">
+<div id="hd"><h1>Request.Keywords - find keywords connected to a certain term</h1></div>
+<div id="bd">
+<h2>Keywords for 'mootools'</h2>
+<div id="output1"></div>
+<h2>Keywords for 'dojo'</h2>
+<div id="output2"></div>
+<h2>Keywords for 'jquery'</h2>
+<div id="output3"></div>
+<div id="ft"><p>Created by @<a href="http://twitter.com/thinkphp">thinkphp</a> using <a href="http://thinkphp.ro/apps/YQL/keywordfinder/keywordfinder.table.xml">Open Data Table</a> | You can grab the source code of this demo on <a href="http://mootools.net/forge/download/Request_Keywords/v1.0">Forge</a></p></div></div>
+<script type="text/javascript"> 
+$('output1').loadKeywords('mootools');
+$('output2').loadKeywords('dojo');
+$('output3').loadKeywords('jquery');
+</script>
+</body>
+</html>
