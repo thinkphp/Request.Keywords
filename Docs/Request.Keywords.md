@@ -32,7 +32,7 @@ Request.Keywords Method: constructor {#Request.Keywords: constructor}
 * url  - (*String*)  the url to get the JSON data
 * data - (*Object*)  additional key/value data to append to the url
 ...
-added options obtained through inheritance.[Request.TimeZone extends Request.JSONP]
+added options obtained through inheritance.[Request.Keywords extends Request.JSONP]
 
 ### Returns:
 
