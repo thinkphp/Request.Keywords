@@ -50,5 +50,14 @@ In your HTML source:
        <div id="another_keywords"></div>
 Dependencies
 
-      MooTools Core 1.2.4
+      MooTools Core 1.3.0
       MooTools More: Request.JSONP
+
+Notes:
+
+You can view in action:
+
+- [http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo1.html](http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo1.html)
+- [http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo2.html](http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo2.html)
+- [http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo3.html](http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo3.html)
+- [http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo4.html](http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo4.html)
