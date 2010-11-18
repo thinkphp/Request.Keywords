@@ -4,4 +4,4 @@ current: v1.3
 category: Request  
 tags: [request,keywords,boss,yahoo]
 docs: http://github.com/thinkphp/Request.Keywords/blob/master/Docs/Request.Keywords.md
-demo: 
+demo: http://thinkphp.github.com/Request.Keywords
