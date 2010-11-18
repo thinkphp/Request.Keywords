@@ -9,7 +9,8 @@ license:
 - MIT-style license
 
 requires:
- core/1.2.1: '*'
+ core/1.3.0: '*'
+ more/Request.JSONP
 
 provides: [Request.Keywords]
 ...
