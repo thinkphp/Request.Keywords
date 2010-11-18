@@ -1,7 +1,7 @@
 name: Request.Keywords
 author: thinkphp
-current: v1.0  
+current: v1.3 
 category: Request  
 tags: [request,keywords,boss,yahoo]
 docs: http://github.com/thinkphp/Request.Keywords/blob/master/Docs/Request.Keywords.md
-demo: http://thinkphp.ro/apps/js-hacks/Request.Keywords/demo1.html 
+demo: 
